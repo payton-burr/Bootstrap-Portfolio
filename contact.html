@@ -11,30 +11,69 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
-        <a href="#" class="navbar-brand">Payton Burr</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-        </ul>
+
+    <!-- Nav Content -->
+    <nav class="navbar navbar-light bg-light navbar-expand-xl|lg|md|sm pb-0 pt-0">
+        <div class="container">
+            <a href="#" class="navbar-brand bg-success p-3">Payton Burr</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link border-right">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link border-right">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="container">
+    <!-- Header Content -->
+    <div class="container bg-light mt-4">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <div class="pb-2 mt-4 mb-2 border-bottom">
-                    <h1>Contact</h1>
+                    <h2>Contact</h2>
                 </div>
             </div>
         </div>
-    </div>
+
+
+        <!-- Form -->
+
+        <form>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="col-md-12" id="inputName" placeholder="John Smith">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="col-md-12" id="inputEmail" placeholder="example@gmail.com">
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="textArea">Message</label>
+                    <textarea class="col-md-12" id="textArea" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+
+        <!--  -->
+
+
+
+
+
+
+    <!-- Footer Content -->
+    <footer class="fixed-bottom bg-dark border-top border-success">
+        <div class="container">
+            <p class="text-center small">Copyright &copy;</p>
+        </div>
+    </footer>
 </body>
 
 </html>
